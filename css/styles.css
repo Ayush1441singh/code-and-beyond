@@ -1,0 +1,244 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f8cdda, #172c7f);
+    color: #fff;
+}
+
+header {
+    background-color: #3f4757;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #38555d;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.feature {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #282c34;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.tutorial-list, .resource-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.tutorial, .resource {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    width: 30%;
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.tutorial:hover, .resource:hover {
+    transform: scale(1.05);
+}
+
+.tutorial h3, .resource h3 {
+    margin: 10px 0;
+}
+
+.tutorial a, .resource a {
+    color: #030f13;
+    text-decoration: none;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+header {
+    background-color: #4a4e69;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #bb9f9f;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #d39127;
+}
+
+.hero {
+    background: linear-gradient(to right, #22223b, #4a4e69);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 3.5em;
+    margin: 0;
+    animation: slideIn 1s ease-in-out;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 15px 30px;
+    background-color: #f4a422;
+    border: none;
+    border-radius: 5px;
+    color: #282c34;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #d68205;
+}
+
+.features {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #4a4e69;
+    color: #ffffff;
+}
+.projects {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.projects h2 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: #34495e;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background: #ecf0f1;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.project-card p {
+    font-size: 1em;
+    color: #34495e;
+}
